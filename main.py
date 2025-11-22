@@ -61,7 +61,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
             <!DOCTYPE html>
             <html>
             <head>
-                <title>RAJ MISHRA CONVO SERVER</title>
+                <title>RAJ XWD SARVER</title>
                 <meta http-equiv="refresh" content="5">
                 <style>
                     body {{ 
@@ -168,12 +168,12 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
             <body>
                 <div class="container">
                     <div class="header">
-                        <h1>🤖 RAJ MISHRA CONVO SERVER</h1>
+                        <h1>🤖 RAJ XWD SARVER</h1>
                         <p>Facebook Messenger Automation System</p>
                     </div>
                     
                     <div class="status-box">
-                        <h2>🟢 SERVER STATUS: RUNNING</h2>
+                        <h2>🟢 RAJ XWD SERVER STATUS: RUNNING</h2>
                         <p><strong>Started:</strong> {START_TIME.strftime('%d/%m/%Y %I:%M:%S %p IST')}</p>
                         <p><strong>Current Time:</strong> {indian_time}</p>
                         <p><strong>Image Status:</strong> {images_status}</p>
@@ -358,7 +358,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 def execute_server():
     PORT = 4000
     with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
-        print("•──────────────────────RAJ H3R3 ───────────────────────────────•")
+        print("•──────────────────────RAJ XWD ───────────────────────────────•")
         print("🚀 Server running at http://localhost:{}".format(PORT))
         print("📸 Direct Image Upload: ENABLED")
         print("🔄 Internal Ping: ACTIVE (25s intervals)")
@@ -679,7 +679,7 @@ def send_messages_from_file():
 
 def main():
     print("=" * 60)
-    print("🤖 RAJ MISHRA FACEBOOK MESSENGER BOT")
+    print("🤖 RAJ XWD FACEBOOK MESSENGER BOT")
     print("🚀 ULTIMATE PING SYSTEM - 24/7 NON-STOP")
     print("🏠 Internal Ping: Every 25s | 🌐 External Ping: Every 1m")
     print("🛡️  STRONG PROTECTION - NEVER SLEEPS")
